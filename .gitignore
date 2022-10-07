@@ -1,0 +1,15 @@
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+.gitlab-ci.yml
+yarn-error.log
+.idea/cyhwork.iml
+.idea/deployment.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/Project_Default.xml

@@ -1,0 +1,67 @@
+// 边界自动伸缩
+.mt-auto {
+	margin-top: auto !important
+}
+
+.mr-auto {
+	margin-right: auto !important
+}
+
+.mb-auto {
+	margin-bottom: auto !important
+}
+
+.ml-auto {
+	margin-left: auto !important
+}
+
+.mc-auto {
+	margin-left: auto !important;
+	margin-right: auto !important
+}
+
+.mm-auto {
+	margin-top: auto !important;
+	margin-bottom: auto !important
+}
+
+@for $i from 0 through 80 {
+	@if $i % 2 == 0 or $i % 5 == 0 or ($i % 3 == 0 and $i<30) {
+		.m#{$i},.mt#{$i},.my#{$i} {
+			margin-top: #{$i}px !important;
+		}
+		.m#{$i},.mr#{$i},.mx#{$i} {
+			margin-right: #{$i}px !important;
+		}
+		.m#{$i},.mb#{$i},.my#{$i} {
+			margin-bottom: #{$i}px !important;
+		}
+		.m#{$i},.ml#{$i},.mx#{$i} {
+			margin-left: #{$i}px !important;
+		}
+		.m-#{$i},.mt-#{$i},.my-#{$i} {
+			margin-top: -#{$i}px !important;
+		}
+		.m-#{$i},.mr-#{$i},mx-#{$i} {
+			margin-right: -#{$i}px !important;
+		}
+		.m-#{$i},.mb-#{$i},.my-#{$i} {
+			margin-bottom: -#{$i}px !important;
+		}
+		.m-#{$i},.ml-#{$i},.mx-#{$i} {
+			margin-left: -#{$i}px !important;
+		}
+		.p#{$i},.pt#{$i},.py#{$i} {
+			padding-top: #{$i}px !important;
+		}
+		.p#{$i},.pr#{$i},.px#{$i} {
+			padding-right: #{$i}px !important;
+		}
+		.p#{$i},.pb#{$i},.py#{$i} {
+			padding-bottom: #{$i}px !important;
+		}
+		.p#{$i},.pl#{$i},.px#{$i} {
+			padding-left: #{$i}px !important;
+		}
+	}
+}

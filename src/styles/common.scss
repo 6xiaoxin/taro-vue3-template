@@ -1,0 +1,133 @@
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial,
+    Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  background-color: #F7F7F7;
+}
+
+div,view{
+  box-sizing: border-box;
+}
+
+// 解决iPhone x 以后的机型 底部安全区域的问题 https://jelly.jd.com/article/6006b1055b6c6a01506c87fd
+.safe-area-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.vh100{
+	height: 100vh;
+}
+
+.vw100{
+	width: 100vw;
+}
+
+.vw90{
+	width: 90vw;
+}
+
+.vw80{
+	width: 80vw;
+}
+
+.h100{
+	height: 100%;
+}
+
+.w100{
+	width: 100%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.border-box{
+	box-sizing: border-box;
+}
+
+.border-radius{
+	&-5{
+		border-radius: 5rpx;
+	}
+	&-10{
+		border-radius: 10rpx;
+	}
+	&-15{
+		border-radius: 15rpx;
+	}
+	&-30{
+		border-radius: 30rpx;
+	}
+	&-50per{
+		border-radius: 50%;
+	}
+}
+
+.font-xs {
+	font-size: 12px !important;
+}
+
+.font-sm {
+	font-size: 14px !important;
+}
+
+.font-md {
+	font-size: 16px !important;
+}
+
+.font-lg {
+	font-size: 18px !important;
+}
+
+.font-xl {
+	font-size: 20px !important;
+}
+
+.font-weight-bold{
+  font-weight: bold;
+}
+
+.block{
+  display: block;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.o-h{
+  overflow: hidden;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.position-absolute{
+  position: absolute;
+}
+
+.position-sticky{
+  position: sticky;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+.border-none{
+  border: none !important;
+}

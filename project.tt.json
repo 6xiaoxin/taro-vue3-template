@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "operation",
+  "appid": "",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
